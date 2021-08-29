@@ -14,6 +14,10 @@ public class HomePageTest extends TestBase{
 	
 	SearchPage sp;
 	
+	// create contructor of current class
+	// use super() keyword here.. it calls the constructor of the TestBase class, only then you can use the initialized method.
+	//otherwise it will give null pointer exception
+	
 	public HomePageTest()
 	{
 		super();
